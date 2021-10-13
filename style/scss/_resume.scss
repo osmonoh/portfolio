@@ -1,0 +1,51 @@
+.resume {
+  //   margin-bottom: 3.2rem;
+  padding: 16rem 1.6rem 1.6rem;
+
+  &-heading {
+    margin-bottom: 12rem;
+  }
+
+  .section {
+    border-top: 1px solid #c7c7c7;
+    padding-top: 4rem;
+
+    display: flex;
+
+    &-heading {
+      width: 42%;
+    }
+
+    &-articles {
+      width: 58%;
+
+      .article {
+        margin-bottom: 8rem;
+        display: flex;
+        justify-content: space-between;
+
+        .timespan {
+          width: 25%;
+        }
+
+        .content {
+          width: 70%;
+
+          &-subheading {
+            margin-bottom: 1.6rem;
+            font-weight: 600;
+          }
+
+          &-points {
+            padding-left: 2.4rem;
+          }
+
+          .experience-statement {
+            margin-top: 3.2rem;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+}

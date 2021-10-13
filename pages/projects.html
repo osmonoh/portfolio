@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dusan Chmelko Projects</title>
+    <script src="https://use.fontawesome.com/3918c0bc6f.js"></script>
+    <link rel="stylesheet" href="../style/css/main.min.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- NAVBAR  -->
+      <nav class="navbar">
+        <div class="navbar-left">
+          <a href="/">
+            <div class="logo">
+              <i class="fa fa-code fa-lg" aria-hidden="true"></i>
+            </div>
+          </a>
+          <a href="/">
+            <div class="name">
+              <h4 class="name-heading">Dusan Chmelko</h4>
+              <p class="name-title">Web Developer</p>
+            </div>
+          </a>
+        </div>
+        <div class="navbar-right">
+          <a class="navbar-right-link" href="./resume.html">Resume</a>
+          <a class="navbar-right-link current projects-bg">Projects</a>
+          <a class="navbar-right-link" href="./contact.html">Contact</a>
+        </div>
+      </nav>
+
+      <!-- PAGE CONTENT  -->
+      <div class="projects">
+        <h2 class="projects-heading">Projects</h2>
+        <div class="projects-content">
+          <!-- PROJECT 1 -->
+          <article class="project">
+            <div class="project-text">
+              <h4 class="project-text-heading">Video platform</h4>
+              <p class="project-text-proper">
+                This is a frontend project where I created a simple video
+                platform using a JavaScript library React to build the UI. The
+                project is called watch and it displays a gallery of videos,
+                allows to search for videos as well as play them. It also offers
+                the option to toggle between light and dark mode. It makes use
+                of a promise-based HTTP client Axios to interact with the
+                YouTube Data API and is deployed on Netlify.
+              </p>
+              <p class="project-text-keywords">
+                React, Context API, Axios, YouTube Data API, Semantic UI
+              </p>
+            </div>
+            <div class="project-buttons">
+              <a
+                class="btn-project btn-code"
+                href="https://github.com/osmonoh/react-video-platform"
+                target="_blank"
+                >code</a
+              ><a
+                class="btn-project btn-website"
+                href="https://watch-video-app.netlify.app/"
+                target="_blank"
+                >website</a
+              >
+            </div>
+            <div class="project-image">
+              <a href="https://watch-video-app.netlify.app/" target="_blank"
+                ><img src="../images/watch-home.png" alt="video platform"
+              /></a>
+            </div>
+          </article>
+          <!-- PROJECT 2 -->
+          <article class="project">
+            <div class="project-text">
+              <h4 class="project-text-heading">Rest API</h4>
+              <p class="project-text-proper">
+                This is my first backend project where I created a small REST
+                API with frontend page introducing the API, offering some
+                interactive examples of requests and responses, as well as
+                documentation. Its name is decentAPI and it is deployed on
+                Heroku. These are some of the technologies and approaches
+                employed in the project:
+              </p>
+              <p class="project-text-keywords">
+                MVC, Node.js, Express.js, EJS, DOM API, JavaScript
+              </p>
+            </div>
+            <div class="project-buttons">
+              <a
+                class="btn-project btn-code"
+                href="https://github.com/osmonoh/rest-api"
+                target="_blank"
+                >code</a
+              ><a
+                class="btn-project btn-website"
+                href="https://decentapi.herokuapp.com/"
+                target="_blank"
+                >website</a
+              >
+            </div>
+            <div class="project-image">
+              <a href="https://decentapi.herokuapp.com/" target="_blank"
+                ><img src="../images/decent-home.png" alt="rest api"
+              /></a>
+            </div>
+          </article>
+          <!-- PROJECT 3 -->
+          <article class="project">
+            <div class="project-text">
+              <h4 class="project-text-heading">Logic game</h4>
+              <p class="project-text-proper">
+                This is my take on a school project where the objective was to
+                create a version of the Bulls and Cows game to be played in the
+                terminal. Finishing the task in a very good time I decided to
+                challenge myself further and took it to the browser making it my
+                first ever DOM manipulation project. I went on this one
+                completely vanilla.
+              </p>
+              <p class="project-text-keywords">
+                HTML, CSS, JavaScript, DOM API
+              </p>
+            </div>
+            <div class="project-buttons">
+              <a
+                class="btn-project btn-code"
+                href="https://github.com/osmonoh/bulls-and-cows"
+                target="_blank"
+                >code</a
+              ><a
+                class="btn-project btn-website"
+                href="https://bulls-cows.netlify.app/"
+                target="_blank"
+                >website</a
+              >
+            </div>
+            <div class="project-image">
+              <a href="https://bulls-cows.netlify.app/" target="_blank"
+                ><img src="../images/bulls.png" alt="logic game"
+              /></a>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <!-- FOOTER  -->
+      <footer class="footer">
+        <a
+          class="footer-link"
+          href="https://www.linkedin.com/in/dusan-chmelko"
+          target="_blank"
+          ><i class="fa fa-linkedin fa-2x linkedin" aria-hidden="true"></i
+        ></a>
+        <p class="copy">&copy; 2021 by Dusan Chmelko</p>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,54 @@
+.hero {
+  &-content {
+    max-width: 600px;
+    margin: 0 auto;
+
+    .hero-text {
+      margin-bottom: 2.4rem;
+
+      .sub-heading {
+        margin-bottom: 0.8rem;
+      }
+    }
+
+    .buttons-box {
+      display: flex;
+      justify-content: center;
+      gap: 3.2rem;
+
+      .btn-hero {
+        border-radius: 50%;
+        width: 16rem;
+        height: 16rem;
+        // background-color: rebeccapurple;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 1.8rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        cursor: pointer;
+        opacity: 0.8;
+        transition: 0.2s;
+
+        &:hover {
+          opacity: 1;
+          @include btn-animation(1.05);
+        }
+      }
+
+      .btn-resume {
+        background-color: rebeccapurple;
+      }
+
+      .btn-projects {
+        background-color: $persian-blue;
+      }
+
+      .btn-contact {
+        background-color: $ultramarine-blue;
+      }
+    }
+  }
+}

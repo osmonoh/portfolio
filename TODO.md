@@ -1,0 +1,3 @@
+- fix the colors affecting each other on hero buttons- now they work !!!
+- find font colours, border colours
+- headings weight
