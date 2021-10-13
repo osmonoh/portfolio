@@ -4,3 +4,5 @@
 - download CV
 - JS mechanics when click on phone/email the respective one be shown
 - add team project - pawfect (at the end of projects)
+- change the hero text!
+- fix zoom effect for the image hover in projects
