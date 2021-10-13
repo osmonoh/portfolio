@@ -4,10 +4,18 @@
     margin: 0 auto;
 
     .hero-text {
-      margin-bottom: 2.4rem;
+      margin-bottom: 4.8rem;
+
+      .heading {
+        margin-bottom: 1.6rem;
+      }
 
       .sub-heading {
-        margin-bottom: 0.8rem;
+        margin-bottom: 1.6rem;
+      }
+
+      .hero-paragraph {
+        font-size: 2rem;
       }
     }
 
