@@ -50,13 +50,14 @@
     &-link {
       border-radius: 6px;
       padding: 1.2rem;
-      //   font-weight: 300;
+      font-size: 1.8rem;
+      font-weight: 400;
       opacity: 0.8;
       transition: 0.2s;
 
       &:hover,
       &:focus {
-        opacity: 1;
+        // opacity: 1;
         color: $dodger-blue;
         // color: rgb(56, 32, 80);
         // text-shadow: 0 0 8px rgba(56, 32, 80, 0.5);
