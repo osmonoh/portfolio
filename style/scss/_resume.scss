@@ -1,9 +1,30 @@
 .resume {
   //   margin-bottom: 3.2rem;
-  padding: 16rem 3.2rem 1.6rem;
+  padding: 16rem 3.2rem 12rem;
 
-  &-heading {
-    margin-bottom: 12rem;
+  &-top {
+    display: flex;
+    justify-content: space-between;
+
+    &-heading {
+      margin-bottom: 12rem;
+    }
+
+    .btn-download {
+      width: 4.8rem;
+      height: 4.8rem;
+      border-radius: 50%;
+      background-color: $ultramarine-blue;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      opacity: 0.7;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
   }
 
   .section {
