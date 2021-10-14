@@ -6,7 +6,7 @@
   }
 
   .project {
-    margin-bottom: 16rem;
+    margin-bottom: 24rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,13 +46,15 @@
         transition: 0.2s;
 
         &:hover {
-          opacity: 1;
+          // opacity: 1;
+          font-size: 2rem;
         }
       }
 
       .btn-code {
         // background-color: rebeccapurple;
-        background-color: $ultramarine-blue;
+        // background-color: $ultramarine-blue;
+        background-color: dodgerblue;
       }
 
       .btn-website {
@@ -68,10 +70,10 @@
       img {
         display: block;
         width: 100%;
-        transition: 0.2s;
+        transition: 0.3s;
 
         &:hover {
-          transform: scale(1.05);
+          transform: scale(1.1);
         }
       }
     }
