@@ -5,6 +5,10 @@
     margin-bottom: 16rem;
   }
 
+  .team-heading {
+    margin-bottom: 8rem;
+  }
+
   .project {
     margin-bottom: 24rem;
     display: flex;
@@ -20,6 +24,13 @@
 
       &-proper {
         margin-bottom: 2.4rem;
+
+        p {
+          margin-bottom: 1.6rem;
+        }
+        p:nth-of-type(odd) {
+          margin-bottom: 2.4rem;
+        }
       }
 
       &-keywords {
