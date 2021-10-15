@@ -38,12 +38,13 @@
         text-transform: uppercase;
         cursor: pointer;
         opacity: 0.8;
-        transition: 0.2s;
+        transition: 0.3s;
 
         &:hover {
           // opacity: 1;
           // @include btn-animation(1.05);
           font-size: 2.2rem;
+          transform: rotate(360deg);
         }
       }
 
