@@ -7,7 +7,55 @@
       margin-bottom: 4.8rem;
 
       .heading {
+        width: fit-content;
         margin-bottom: 1.6rem;
+        animation: heading-animation 8s;
+        // transform-origin: center center;
+
+        @keyframes heading-animation {
+          8% {
+            transform: translateY(0) scale(1);
+          }
+          9% {
+            transform: translateY(-10px) scale(1.4);
+          }
+          10% {
+            transform: translateY(-10px) scale(1.4) rotateZ(-10deg);
+          }
+          10.5% {
+            transform: rotateZ(10deg);
+          }
+          11% {
+            transform: rotateZ(-10deg);
+          }
+          11.5% {
+            transform: rotateZ(0);
+          }
+          15% {
+            transform: rotateZ(-10deg);
+          }
+          15.5% {
+            transform: rotateZ(10deg);
+          }
+          16% {
+            transform: rotateZ(-10deg);
+          }
+          16.5% {
+            transform: rotateZ(0);
+          }
+          20% {
+            transform: rotateZ(-10deg);
+          }
+          20.5% {
+            transform: rotateZ(10deg);
+          }
+          21% {
+            transform: rotateZ(-10deg);
+          }
+          21.5% {
+            transform: rotateZ(0);
+          }
+        }
       }
 
       .sub-heading {
