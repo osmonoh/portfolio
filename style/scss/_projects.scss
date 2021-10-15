@@ -43,11 +43,18 @@
         color: white;
         font-weight: 500;
         opacity: 0.8;
-        transition: 0.3 s;
+
+        p {
+          transition: 0.2s;
+        }
 
         &:hover {
           // opacity: 1;
-          font-size: 2rem;
+          // font-size: 2rem;
+
+          p {
+            transform: scale(1.2);
+          }
         }
       }
 
