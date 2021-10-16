@@ -2,7 +2,7 @@
   padding: 16rem 3.2rem 12rem;
 
   @media (max-width: 630px) {
-    padding: 8rem 3.2rem 8rem;
+    padding: 14rem 3.2rem 8rem;
     text-align: center;
   }
 
@@ -11,7 +11,8 @@
 
     @media (max-width: 630px) {
       // margin: 0 auto;
-      margin-bottom: 8rem;
+      // margin-bottom: 8rem;
+      display: none;
     }
   }
 
