@@ -2,7 +2,7 @@
   width: 100%;
   height: 100%;
   margin-bottom: auto;
-  padding: 16rem 3.2rem 1.6rem;
+  padding: 16rem 3.2rem 16rem;
   display: flex;
   flex-direction: column;
 
@@ -43,8 +43,9 @@
     }
 
     @media (max-width: 430px) {
-      width: 220px;
-      margin: 0 auto;
+      // width: 220px;
+      // margin: 0 auto;
+      gap: 8%;
     }
 
     .phone-number,
