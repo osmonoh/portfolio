@@ -56,10 +56,6 @@
         width: 100%;
         margin-bottom: 4.8rem;
       }
-
-      @media (max-width: 630px) {
-        display: none;
-      }
     }
 
     &-articles {
@@ -119,6 +115,12 @@
 
   .my-name {
     border: none;
+
+    @media (max-width: 630px) {
+      .section-heading {
+        display: none;
+      }
+    }
 
     .article {
       margin-bottom: 4rem;
