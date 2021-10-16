@@ -1,4 +1,6 @@
 .hero {
+  padding: 3.2rem;
+
   &-content {
     max-width: 600px;
     margin: 0 auto;
@@ -6,11 +8,18 @@
     .hero-text {
       margin-bottom: 4.8rem;
 
+      @media (max-width: 630px) {
+        text-align: center;
+      }
+
       .heading {
         width: fit-content;
         margin-bottom: 1.6rem;
         animation: heading-animation 8s;
-        // transform-origin: center center;
+
+        @media (max-width: 630px) {
+          margin: 0 auto;
+        }
 
         @keyframes heading-animation {
           8% {
@@ -72,6 +81,10 @@
       justify-content: center;
       gap: 4rem;
 
+      @media (max-width: 630px) {
+        gap: 0.8rem;
+      }
+
       .btn-hero {
         border-radius: 50%;
         width: 16rem;
@@ -87,6 +100,11 @@
         cursor: pointer;
         opacity: 0.8;
         transition: 0.3s;
+
+        @media (max-width: 630px) {
+          width: 26vw;
+          height: 26vw;
+        }
 
         &:hover {
           // opacity: 1;
