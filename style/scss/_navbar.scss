@@ -95,10 +95,9 @@
           content: "";
           width: 8rem;
           height: 8rem;
-          // border: 1px solid $color-text;
-          box-shadow: 0 0 12px rgba(168, 168, 168, 0.2);
+          border: 1px solid rgba(168, 168, 168, 0.3);
+          box-shadow: 0 0 8px rgba(168, 168, 168, 0.3);
           border-radius: 50%;
-          background-color: #f1f1f1;
           z-index: -5;
         }
       }
@@ -184,7 +183,9 @@
     content: "";
     width: 8rem;
     height: 8rem;
-    box-shadow: 0 0 12px rgba(168, 168, 168, 0.4);
+    box-shadow: 0 0 12px rgba(168, 168, 168, 0.6);
+    // box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+
     border-radius: 50%;
     opacity: 0.8;
     z-index: -5;

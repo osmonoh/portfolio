@@ -37,6 +37,10 @@
 
     &-text {
       width: 45%;
+      // box-shadow: 0 0 12px rgba(168, 168, 168, 0.3);
+      // border: 1px solid rgba(168, 168, 168, 0.3);
+      // border-radius: 6px;
+      // padding: 3.2rem;
 
       @media (max-width: 1200px) {
         width: 50%;
@@ -89,15 +93,21 @@
       }
 
       .btn-project {
+        margin: 0 auto;
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 8rem;
-        height: 8rem;
-        border-radius: 50%;
-        color: white;
-        font-weight: 500;
+        // width: 8rem;
+        // height: 8rem;
+        // box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+        box-shadow: 0 0 12px rgba(168, 168, 168, 0.6);
+        border-radius: 6px;
+        padding: 1.2rem 3.2rem;
+        color: whitesmoke;
+        font-weight: 700;
+        text-transform: uppercase;
         opacity: 0.8;
+        transition: 0.2s;
 
         @media (max-width: 990px) {
           margin: 0 auto;
@@ -108,19 +118,21 @@
         }
 
         &:hover {
-          // opacity: 1;
+          opacity: 1;
           // font-size: 2rem;
 
-          p {
-            transform: scale(1.2);
-          }
+          // p {
+          //   transform: scale(1.2);
+          // }
         }
       }
 
       .btn-code {
         // background-color: rebeccapurple;
         // background-color: $ultramarine-blue;
-        background-color: dodgerblue;
+        background-color: #367dc4;
+        background-color: $tryptan-blue-lighter;
+        opacity: 0.7;
       }
 
       .btn-website {
@@ -130,8 +142,9 @@
 
     &-image {
       width: 35%;
-      overflow: hidden;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
       border-radius: 6px;
+      overflow: hidden;
 
       @media (max-width: 1200px) {
         width: 40%;
